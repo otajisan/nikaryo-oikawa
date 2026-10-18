@@ -1,0 +1,20 @@
+# 専門家の調査レポート（公開するものは確認を経て docs/ に移す）
+/reports/
+
+# 個人ごとのローカル設定
+/.claude/settings.local.json
+
+# kb sync が親の repo（my-work-knowledge-base）の shared/ に張る symlink。
+# この repo 単体では壊れたリンクになるため追跡しない
+/.claude/agents/tree-pest.md
+/.claude/agents/regional-data.md
+/.claude/agents/civic-tech.md
+/.claude/agents/community-engagement.md
+/.claude/agents/behavioral-economics.md
+/.claude/experts/
+/.claude/skills/expert-report
+/.claude/skills/new-rule
+
+.DS_Store
+__pycache__/
+node_modules/
