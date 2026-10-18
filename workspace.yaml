@@ -3,6 +3,7 @@ type: personal
 description: "武蔵小杉の二ヶ領用水にもオイカワを（川崎市の二ヶ領用水をきれいにし、自然を守る。桜並木のクビアカツヤカミキリ対策を含む）"
 # 使う共有の専門家（shared/experts/）。改行して `- ad-business` のように 1 行に 1 つずつ書く（[a, b] でも可）。変更したら kb sync を実行する
 experts:
+  - freshwater-ecology
   - tree-pest
   - regional-data
   - civic-tech

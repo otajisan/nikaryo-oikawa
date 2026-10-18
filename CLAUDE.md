@@ -28,9 +28,8 @@
 |---|---|---|---|
 | （workspace 固有の専門家はまだいません） | | | |
 
-共有の専門家（`.claude/experts/ROSTER.md`）: **tree-pest**（桜並木の害虫の生態・防除・法規制・行政の対応）、regional-data（被害の地図・公園や街路樹のデータ）、civic-tech（通報・記録の仕組みづくり、市との協働）、community-engagement（見回りの仲間・観察会・学校や町内会）、behavioral-economics（通報・見回りへの参加の呼びかけ）。
+共有の専門家（`.claude/experts/ROSTER.md`）: **freshwater-ecology**（二ヶ領用水の生きもの・水質・生息環境・採集のルール・清掃と観察会。この workspace の中心）、**tree-pest**（桜並木の害虫の生態・防除・法規制・行政の対応）、regional-data（被害の地図・公園や街路樹のデータ）、civic-tech（通報・記録の仕組みづくり、市との協働）、community-engagement（見回りの仲間・観察会・学校や町内会）、behavioral-economics（通報・見回りへの参加の呼びかけ）。
 
-> **水辺の専門家はまだいない**。二ヶ領用水の水質・魚（オイカワなど）・河川環境・採集のルールを担う専門家は、共有の専門家としてリポジトリのルートで追加する。それまでは、水辺の依頼は直接対応し、専門家がいないことを伝える。
 
 ## 相談プロトコル（専門家向け）
 
