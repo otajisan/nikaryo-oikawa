@@ -12,6 +12,7 @@
   const nice = (m) => { if (m <= 0) return 1; const p = 10 ** Math.floor(Math.log10(m)); const n = m / p; return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 2.5 ? 2.5 : n <= 5 ? 5 : 10) * p; };
 
   function showTip(title, rows, x, y) {
+    if (!tip) return;
     tip.replaceChildren();
     const t = document.createElement("div"); t.className = "t"; t.textContent = title; tip.appendChild(t);
     for (const r of rows) {
@@ -26,7 +27,7 @@
     tip.style.left = Math.min(window.innerWidth - w - 8, Math.max(8, x + 12)) + "px";
     tip.style.top = Math.min(window.innerHeight - h - 8, Math.max(8, y - h - 10)) + "px";
   }
-  const hideTip = () => { tip.style.display = "none"; };
+  const hideTip = () => { if (tip) tip.style.display = "none"; };
   const at = (ev, el) => { if (ev && ev.clientX !== undefined) return [ev.clientX, ev.clientY]; const r = el.getBoundingClientRect(); return [r.left + r.width / 2, r.top]; };
 
   function legend(fig, series, kind) {
