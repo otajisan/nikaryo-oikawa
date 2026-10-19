@@ -269,7 +269,7 @@ pages.append(dict(path="index.html", title="ホーム", section="home", crumbs=N
 # ---------------- 水と生きもの ----------------
 pages.append(dict(path="water/index.html", title="水と生きもの", section="water", theme="theme-water",
     crumbs=[("index.html", "ホーム")],
-    desc="二ヶ領用水の水質・生きもの・水辺の環境について（準備中）。",
+    desc="二ヶ領用水の水質・生きもの・水辺の環境について。用水のゴミ問題のページを公開中。",
     body="""<h1>水と生きもの</h1>
 <p class="page-meta">一部を公開しています（{asof} 時点）</p>
 <p class="intro">二ヶ領用水の水質・生きもの（オイカワなどの魚、エビ・カニ、水生昆虫）・水辺の環境と、それを損なう要因を、公式の資料と観察にもとづいて調べ、このページにまとめていきます。</p>
