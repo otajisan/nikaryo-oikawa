@@ -7,7 +7,7 @@
 
 ## やること
 
-1. **調べる**: 二ヶ領用水の水質・生きもの・水辺の環境と、それを損なう要因を、公式の資料と観察にもとづいて整理する
+1. **調べる**: 二ヶ領用水の水質・生きもの・水辺の環境と、それを損なう要因を、公式の資料と観察にもとづいて整理する（用水のゴミ問題は公開サイトの「[用水のゴミ問題](https://otajisan.github.io/nikaryo-oikawa/water/litter.html)」にまとめています）
 2. **桜並木を守る**: 用水沿いの桜を、特定外来生物 **クビアカツヤカミキリ** の被害から守る
 3. **仕組みをつくる**: 観察・清掃・被害の記録と通報の仕組みを作り、地域の人と続けられる形にする
 
@@ -43,6 +43,10 @@
 - 農林水産省 クビアカツヤカミキリ対策本部: https://www.maff.go.jp/j/syouan/syokubo/keneki/k_kokunai/kubiaka/taisaku.html
 - 森林総合研究所「クビアカツヤカミキリの防除法」: https://www.ffpri.go.jp/pubs/chukiseika/5th-chuukiseika12.html
 - 神奈川県 クビアカツヤカミキリに関するお知らせ: https://www.pref.kanagawa.jp/docs/t4i/cnt/f986/kubiaka.html
+- 川崎市 二ヶ領用水基本方針 本編（2026-02）: https://www.city.kawasaki.jp/530/cmsfiles/contents/0000058/58112/kouhyouhonpen.pdf
+- 川崎市 河川愛護ボランティア制度: https://www.city.kawasaki.jp/kurashi/category/29-5-19-6-0-0-0-0-0-0.html
+
+ほかの出典は、公開サイトの各ページの「このページの出典」に、取得日と一緒に載せています。
 
 ## ライセンス
 
