@@ -31,6 +31,7 @@
 ├── workspace.yaml     # 使う専門家
 ├── knowledge/         # 調べた前提・記録
 ├── docs/              # 公開サイト（GitHub Pages）
+├── tools/             # 公開サイトの HTML を生成するスクリプト（python3 tools/build_site.py）
 └── .claude/           # Claude Code の設定
 ```
 
