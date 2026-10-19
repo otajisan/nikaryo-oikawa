@@ -74,6 +74,28 @@ S = {
     "sakigake": ("web", "秋田魁新報（2026-08-26）環境省の概算要求", "https://www.sakigake.jp/news/article/20260826CO0132/", ASOF),
     "nikkei": ("web", "日本経済新聞（2026-10-06）予備費", "https://www.nikkei.com/article/DGXZQOUA062GA0W6A001C2000000/", ASOF),
     "kankou": ("web", "神奈川県観光協会 二ヶ領用水宿河原堤桜並木", "https://kanagawa-kankou.or.jp/notices/54", ASOF),
+    # ゴミ問題（water/litter.html）
+    "kawa_honpen": ("official", "川崎市 二ヶ領用水基本方針 本編（2026-02）", "https://www.city.kawasaki.jp/530/cmsfiles/contents/0000058/58112/kouhyouhonpen.pdf", ASOF),
+    "kawa_survey": ("official", "川崎市議会 まちづくり委員会資料（2025-11-06）二ヶ領用水についての市民アンケート", "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000175/175709/20251106-1(2)-2.pdf", "2026-10-18"),
+    "kawa_pubcom": ("official", "川崎市議会 まちづくり委員会資料（2026-02-09）二ヶ領用水基本方針のパブリックコメントの結果", "https://www.city.kawasaki.jp/980/cmsfiles/contents/0000175/175709/20260209-2(2)-1.pdf", "2026-10-18"),
+    "kawa_suishin10": ("official", "川崎市 第 10 回 二ヶ領用水推進会議 議事録（2025-02-17）", "https://www.city.kawasaki.jp/530/cmsfiles/contents/0000176/176971/gijiroku.pdf", "2026-10-18"),
+    "kawa_suishin9": ("official", "川崎市 二ヶ領用水推進会議 資料（2024 年の一斉清掃の結果）", "https://www.city.kawasaki.jp/530/cmsfiles/contents/0000172/172143/siryou.pdf", "2026-10-18"),
+    "kawa_suishin9_log": ("official", "川崎市 二ヶ領用水推進会議 議事録（2024 年度）", "https://www.city.kawasaki.jp/530/cmsfiles/contents/0000172/172143/gijiroku.pdf", "2026-10-18"),
+    "kawa_aigo_flyer": ("official", "川崎市 河川愛護ボランティアのチラシ", "https://www.city.kawasaki.jp/530/cmsfiles/contents/0000028/28431/kasenaigo-chirasi.pdf", ASOF),
+    "kawa_aigo": ("official", "川崎市 河川愛護ボランティア制度", "https://www.city.kawasaki.jp/kurashi/category/29-5-19-6-0-0-0-0-0-0.html", "2026-10-18"),
+    "kawa_kasenka": ("official", "川崎市 建設緑政局 道路河川整備部 河川課", "https://www.city.kawasaki.jp/530/soshiki/10-5-3-0-0.html", "2026-10-18"),
+    "kawa_tsuho": ("official", "川崎市 道路・公園・河川の損傷などの通報", "https://www.city.kawasaki.jp/kurashi/category/28-6-6-9-0-0-0-0-0-0.html", "2026-10-18"),
+    "kawa_fuho": ("official", "川崎市 不法投棄の通報", "https://www.city.kawasaki.jp/kurashi/category/262-2-2-0-0-0-0-0-0-0.html", "2026-10-18"),
+    "kawa_touro": ("official", "川崎市 二ヶ領用水 灯篭流し＆清掃（2025-09-28）", "https://www.city.kawasaki.jp/530/page/0000181039.html", "2026-10-18"),
+    "kawa_hosho": ("official", "川崎市 市民活動（ボランティア活動）補償制度", "https://www.city.kawasaki.jp/templates/faq/250/0000012210.html", "2026-10-18"),
+    "nakahara_kumin": ("official", "川崎市中原区 第 5 期 区民会議の報告（ごみ問題）", "https://www.city.kawasaki.jp/nakahara/cmsfiles/contents/0000076/76506/houdouteikyousiryou.pdf", "2026-10-18"),
+    "nakahara_dayori": ("official", "市政だより なかはら区版（2024 年 3 月号）", "https://www.city.kawasaki.jp/170/cmsfiles/contents/0000158/158810/0301_nakahara_web.pdf", ASOF),
+    "nakahara_sdc": ("official", "川崎市中原区 なかはら SDC（YORIAI）", "https://www.city.kawasaki.jp/nakahara/page/0000186667.html", "2026-10-16"),
+    "seseragikan": ("web", "二ヶ領せせらぎ館 2026 年 二ヶ領用水一斉清掃のお知らせ", "https://www.seseragikan.com/news-topics/5543/", ASOF),
+    "seven_josei": ("web", "セブン-イレブン記念財団 地域美化助成", "https://www.7midori.org/josei/", "2026-10-18"),
+    "kasen_kikin": ("web", "河川財団 河川基金の助成", "https://www.kasen.or.jp/kikin/tabid290.html", "2026-10-18"),
+    "flora_cialdini": ("web", "FORRT Replication Atlas: Cialdini ら（1990）の再現研究のまとめ", "https://forrt.org/flora-replication-atlas/doi/10.1037/0022-3514.58.6.1015/", "2026-10-18"),
+    "beijer_gavle": ("web", "Beijer Institute: 子どもの絵のごみ箱の実験（スウェーデン・イェヴレ、2023）", "https://beijer.kva.se/?p=4215", "2026-10-19"),
 }
 LABEL = {"official": "公式", "web": "Web"}
 
@@ -224,7 +246,7 @@ pages.append(dict(path="index.html", title="ホーム", section="home", crumbs=N
 </div></section><!--/hero-->
 <h2>3 つの取り組み</h2>
 <div class="cards">
-<a class="card water" href="@/water/index.html"><h3>水と生きもの</h3><p>用水の水質・生きもの・水辺の環境と、それを損なう要因を、公式の資料と観察で調べます。</p><span class="status">準備中</span></a>
+<a class="card water" href="@/water/index.html"><h3>水と生きもの</h3><p>用水の水質・生きもの・水辺の環境と、それを損なう要因を、公式の資料と観察で調べます。</p><span class="status">一部公開</span></a>
 <a class="card sakura" href="@/sakura/index.html"><h3>桜並木を守る</h3><p>用水沿いの桜並木を、特定外来生物「クビアカツヤカミキリ」の被害から守ります。</p><span class="status">公開中</span></a>
 <a class="card leaf" href="@/action/index.html"><h3>みんなでできること</h3><p>見回り・記録・通報の仕組みを作り、地域の人と続けられる形にします。</p><span class="status">準備中</span></a>
 </div>
@@ -237,6 +259,7 @@ pages.append(dict(path="index.html", title="ホーム", section="home", crumbs=N
 </ul>
 <h2>お知らせ</h2>
 <ul>
+<li><time>2026-10-19</time> 「<a href="@/water/litter.html">用水のゴミ問題</a>」のページを公開しました（{asof} 時点の情報）。</li>
 <li><time>2026-10-19</time> 「<a href="@/sakura/kubiaka/index.html">クビアカツヤカミキリ</a>」のページを公開しました（{asof} 時点の情報）。</li>
 </ul>
 <h2>このサイトの見かた</h2>
@@ -250,6 +273,10 @@ pages.append(dict(path="water/index.html", title="水と生きもの", section="
     body="""<h1>水と生きもの</h1>
 <p class="page-meta">準備中のページです（{asof} 時点）</p>
 <p class="intro">二ヶ領用水の水質・生きもの（オイカワなどの魚、エビ・カニ、水生昆虫）・水辺の環境と、それを損なう要因を、公式の資料と観察にもとづいて調べ、このページにまとめていきます。</p>
+<h2>公開中のページ</h2>
+<div class="cards">
+<a class="card water" href="@/water/litter.html"><h3>用水のゴミ問題</h3><p>分かっていること、知らせる先、清掃への参加のしかた、ポイ捨てを減らす手</p></a>
+</div>
 <h2>二ヶ領用水のあらまし</h2>
 <ul>
 <li>二ヶ領用水は、二ヶ領本川・上河原線・宿河原線・円筒分水から下流の区間でできています。[[kawa_kihon]]</li>
@@ -270,6 +297,144 @@ pages.append(dict(path="water/index.html", title="水と生きもの", section="
 </div>
 <h2>桜並木とのつながり</h2>
 <p>用水沿いの桜をクビアカツヤカミキリから守るために薬を使うと、水の生きものに影響が出るおそれがあります。オイカワのえさになる水生昆虫は、魚よりずっと薬に弱いことがあります。くわしくは「<a href="@/sakura/kubiaka/control.html#water">防除の方法（用水のそばで）</a>」へ。</p>
+""".replace("{asof}", ASOF)))
+
+# ---------------- 水と生きもの: ゴミ問題 ----------------
+pages.append(dict(path="water/litter.html", title="用水のゴミ問題", section="water", theme="theme-water",
+    crumbs=[("index.html", "ホーム"), ("water/index.html", "水と生きもの")], charts=True,
+    desc="二ヶ領用水（川崎市中原区の周辺）のゴミについて、公開資料で分かっていること、知らせる先、清掃への参加のしかた、ポイ捨てを減らす手。",
+    body="""<h1>用水のゴミ問題</h1>
+<p class="page-meta">{asof} 時点の情報</p>
+<p class="intro">二ヶ領用水について市民がいちばん多く書いた困りごとは「ゴミ」でした。[[kawa_survey]] 一方で、清掃を続けてきた人からは「ゴミは大分減った」という声もあります。[[kawa_suishin10]] このページでは、武蔵小杉のある中原区の区間を中心に、公開資料で分かっていることと、お金をかけずに今日からできることをまとめます。</p>
+<div class="stats">
+<div class="stat"><div class="stat-label">市民アンケートの自由記述で最も多かった内容</div><div class="stat-value">31<span class="stat-unit">件</span></div><div class="stat-sub">「ゴミが目立つ」（自由記述 297 件中、2025-03〜04）[[kawa_survey]]</div></div>
+<div class="stat"><div class="stat-label">用水の清掃活動を「知らない」</div><div class="stat-value">55<span class="stat-unit">%</span></div><div class="stat-sub">回答 864 件中 475 件 [[kawa_survey]]</div></div>
+<div class="stat"><div class="stat-label">イベント・清掃に「興味がある」</div><div class="stat-value">77<span class="stat-unit">%</span></div><div class="stat-sub">参加しやすいのは「休日の朝」49% [[kawa_survey]]</div></div>
+</div>
+<h2>公開資料で分かっていること</h2>
+<figure class="viz">
+<figcaption><b>二ヶ領用水についての市民アンケート: 自由記述の主な内容（件数、2025 年 3〜4 月、用水全体）</b>川崎市議会 まちづくり委員会資料 [[kawa_survey]]</figcaption>
+<div class="viz-chart"><script type="application/json">
+{"type": "bar", "unit": "件", "digits": 0, "categoryLabel": "自由記述の内容",
+ "categories": ["ゴミが目立つ", "除草", "生物・植物の保護", "樹木管理", "花見のマナー", "清掃活動への感謝", "清掃活動に参加したい"],
+ "series": [{"name": "件数", "values": [31, 22, 20, 18, 17, 11, 11]}],
+ "emphasis": "ゴミが目立つ"}
+</script></div>
+<p class="viz-note">Web（二次元バーコード）で自分から答えた人の回答です（864 件、うち中原区に住む人は 23%）。無作為に選んだ人の回答ではなく、中原区の区間だけの集計でもありません。</p>
+</figure>
+<p class="takeaway">ゴミを気にしている人は多いのに、清掃活動を知らない人が半数を超えています。「ゴミが気になる人」と「清掃の場」が、まだつながっていません。</p>
+<ul>
+<li><strong>「減った」という声</strong>: 2025-02 の市の推進会議で、市民の委員が「清掃を始めた 10 年前くらいはごみがそこそこあったが、最近は大分減った」と話しています。[[kawa_suishin10]]</li>
+<li><strong>「毎日のように置かれている」という声</strong>: 基本方針のパブリックコメントには、ゴミが毎日のように置かれている、トイレの周りでたばこ・ペットボトルが捨てられる、釣り糸に鳥が絡まっていた、といった声が寄せられました。[[kawa_pubcom]]</li>
+<li><strong>ごみ箱は置かない</strong>: 市は、家庭ごみが持ち込まれるおそれがあるため用水沿いにごみ箱を置かず、見回り・啓発・広報で対応するとしています。[[kawa_pubcom]]</li>
+<li><strong>清掃の記録</strong>: 2024-06-02 の一斉清掃は 6 団体・171 人で、30L の袋 61 袋分を集めました。中原区の会場（コスギ アイハグ前広場）は 43 人・7 袋でした。記録は人数と袋の数だけで、ゴミの種類や重さは残っていません。[[kawa_suishin9]]</li>
+</ul>
+<p class="takeaway">「減った」と「毎日ある」は、どちらも本当かもしれません。用水全体では減っても、ベンチ・トイレ・橋のたもとなど、特定の場所や時間に残っている可能性があります。[[est]] これを確かめるには、<a href="#record">場所と時間を分けた記録</a>が役に立ちます。</p>
+
+<h2>ゴミは 3 種類に分けて考える</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>種類</th><th>例</th><th>主な対応</th></tr></thead>
+<tbody>
+<tr><td>(A) 用水沿いでのポイ捨て</td><td>吸い殻・飲み物の容器・お菓子の袋</td><td>きれいな状態を保つ、掲示の文面、清掃の仲間を増やす</td></tr>
+<tr><td>(B) 上流・風・雨で流れ着くゴミ</td><td>水の中の袋・ボトル</td><td>定期的な清掃、管理者（市）への報告</td></tr>
+<tr><td>(C) まとめて捨てる不法投棄</td><td>家電・袋ごとのゴミ</td><td>生活環境事業所に通報する（ゴミは動かさない）</td></tr>
+</tbody></table></div>
+<p>掲示など「ちょっとした仕掛け」が効くのは、主に (A) です。(B)(C) は、清掃と通報で対応します。</p>
+
+<h2 id="report">見つけたら: 知らせる先</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>こんなとき</th><th>知らせる先</th></tr></thead>
+<tbody>
+<tr><td>用水・護岸・柵の壊れ、ゴミがたまって流れをふさいでいる</td><td>区ごとの通報フォーム、または川崎市 LINE のメニュー「道路/公園等損傷通報」。中原区は道路公園センター（044-788-2311、開庁日 8:30〜17:15）[[kawa_tsuho]]<br>散らばったゴミの通報に使ってよいかは、確かめられていません <span class="tbc">要確認</span></td></tr>
+<tr><td>家電・袋ごとのゴミなど、不法投棄</td><td>中原区は中原生活環境事業所（044-411-9220、月〜土 8:00〜16:45、電話のみ）。ゴミは動かさず、場所と種類を伝える [[kawa_fuho]]</td></tr>
+<tr><td>清掃・ボランティア・用水全体の相談</td><td>川崎市 建設緑政局 道路河川整備部 河川課（環境担当）044-200-2906 [[kawa_kasenka]]</td></tr>
+</tbody></table></div>
+
+<h2 id="join">清掃に参加する</h2>
+<p class="lead">新しい団体をつくらなくても、すでにある清掃の場と制度に加われます。</p>
+<ul>
+<li><strong>二ヶ領用水一斉清掃</strong>: 例年 6 月上旬の日曜。2026 年は 6/7（日）9:00〜10:30 でした。中原区の集合場所はコスギ アイハグ前広場（武蔵小杉駅から徒歩 5 分）。申し込みが必要で、軍手・ゴミ袋は主催者が用意します。[[seseragikan]] 2027 年の日程は、まだ公表されていません。</li>
+<li><strong>灯篭流し＆清掃</strong>: 2025-09-28 に中原区で開かれ、子どもを含む約 100 人が参加しました。[[kawa_touro]]</li>
+<li><strong>中原区で活動している団体</strong>: 市の基本方針は、沿川の市民活動として「二ヶ領用水中原桃の会」などを挙げています。[[kawa_honpen]] 桃の会は用水沿いのハナモモの手入れと桃まつりを行い、会員を募集していました（2024-03 時点）。[[nakahara_dayori]] 団体を知りたいときは、河川課か中原区役所 企画課（044-744-3149）に問い合わせてください。</li>
+<li><strong>河川愛護ボランティア制度</strong>: 5 人以上の団体が約 200m を受け持ち、市と合意書を交わして、清掃（月 1 回程度）・除草（年 2 回程度）をします。軍手・ゴミ袋は市が支給し、年 1 回、市と意見交換会があります。二ヶ領用水は名指しで歓迎されています。個人で参加したい人は河川課に連絡します。[[kawa_aigo_flyer]] [[kawa_aigo]]</li>
+<li><strong>けがへの備え</strong>: 市内の団体の活動中の事故は、市の市民活動補償制度の対象になります（事前の登録・掛け金は不要。個人だけの活動は対象外）。[[kawa_hosho]]</li>
+</ul>
+
+<h2 id="record">記録のしかた（お金をかけずに）</h2>
+<p>「用水全体が汚い」ではなく、「<strong>どの区間に・いつ・何が</strong>残っているか」を記録すると、市や清掃団体が動きやすくなります。市の記録（人数・袋の数）に、品目ごとの個数を足すと、市にない情報になります。[[est]]</p>
+<ol class="steps">
+<li><b>区間を決める</b>橋から次の橋まで、約 200m ごとに区切って「区間 ID」を付けます（河川愛護ボランティアの受け持ちの長さに合わせる）。場所は GPS ではなく区間 ID で記録します。</li>
+<li><b>同じ項目で記録する</b>日付・時刻、天気（48 時間以内の雨）、区間 ID と岸、人数、30L 袋の数、品目ごとの個数（飲み物の容器・吸い殻・包装・袋・釣り糸など）、拾ったか数えただけか。「ゴミなし」も記録します。</li>
+<li><b>無料の道具でまとめる</b>入力フォーム → 表計算 → 地図で区間ごとに色分け、のように、無料のサービスで足ります。アカウントは個人ではなく団体で持ち、管理する人を 2 人以上にします。</li>
+<li><b>届ける</b>区間ごとの集計を、河川課や、ボランティア制度の年 1 回の意見交換会に持っていきます。</li>
+</ol>
+<div class="box note">
+<h3>記録を公開するときの決まり</h3>
+<ul>
+<li>名前は集めず、グループ名までにします。写真に人の顔・表札・車のナンバーを写さず、位置情報（EXIF）は消します。</li>
+<li>子どもの記録を公開するときは、保護者と学校の同意を先にもらい、名前・学校名・顔は出しません。</li>
+</ul>
+</div>
+
+<h2 id="nudge">ポイ捨てを減らすために</h2>
+<p class="lead">いちばん根拠があって安いのは、「きれいな状態を保ち続ける」ことです。</p>
+<ul>
+<li>きれいな場所ほどポイ捨てが少ないことは、再現の実験でも確かめられています。[[flora_cialdini]] ゴミが残りやすい場所を、短い間隔で拾い続けるのが基本です。</li>
+<li>掲示や SNS で「ゴミが多い」と強調すると、「みんな捨てている」という印象を与えて、かえって逆効果になることがあります。[[flora_cialdini]]</li>
+</ul>
+<h3>掲示・発信の文面の順番</h3>
+<ol>
+<li>この用水を大切にしている人がたくさんいます</li>
+<li>それでも、ここに、これ（例: 吸い殻）が残っています</li>
+<li>持ち帰ってください</li>
+<li>ありがとう</li>
+</ol>
+<h3>子どもが描いた絵の掲示</h3>
+<p>費用が安く、家族が関わる入口にもなります。ただし、掲示だけでポイ捨てが減るという根拠は強くありません。子どもの絵に「ポイ捨て禁止」を添えたごみ箱で、かえってゴミが入りにくくなった実験もあります。[[beijer_gavle]] 使うときは次のようにします。[[est]]</p>
+<ul>
+<li>元気な生きもの（魚・カモなど）を、目が正面を向くように描く。ゴミや泣き顔は描かない</li>
+<li>文面は「ありがとう」と「持ち帰ってね」を主にして、禁止の言葉を主にしない</li>
+<li>清掃の直後に貼り、4〜6 週で描き替える。傷んだら、すぐに外す</li>
+<li>用水沿いに貼るときは、管理者（市）の許可の条件を先に確かめる <span class="tbc">要確認</span></li>
+</ul>
+<div class="box alert">
+<h3>使わない手</h3>
+<ul>
+<li>偽の防犯カメラや「監視中」の嘘</li>
+<li>特定の人たちを名指しして責めること</li>
+<li>新しいごみ箱（市は家庭ごみの持ち込みを心配して置かない方針です [[kawa_pubcom]]）</li>
+</ul>
+</div>
+
+<h2 id="kids">子どもと一緒に清掃するとき</h2>
+<ul>
+<li>用水には入らず、岸からトング（マジックハンド）で拾います。</li>
+<li>水際の水草は、生きもののすみかなので取りません。[[kawa_suishin10]]</li>
+<li>護岸の作りから、子どもが清掃しやすい場所は限られます。場所は下見して決めます。[[kawa_suishin10]]</li>
+<li>中原区では、小学 5 年生 84 人が市長と清掃した例（2024-06）や、子どもが作ったポスターを用水に貼った例があります。[[kawa_suishin9_log]]</li>
+</ul>
+
+<h2 id="money">使える支援</h2>
+<p>市・区の助成は、規約のある団体が対象で、個人では申し込めません。締め切りは {asof} 時点の情報です。必ず元のページで確かめてください。</p>
+<div class="table-wrap"><table>
+<thead><tr><th>支援</th><th>対象・内容</th><th>締め切り・時期</th></tr></thead>
+<tbody>
+<tr><td>セブン-イレブン記念財団 地域美化助成（2027 年度）[[seven_josei]]</td><td>地域住民が中心の非営利の任意団体。最大 50 万円/年（道具・ゴミの運搬処理・保険など）</td><td>2026-10-30（金）</td></tr>
+<tr><td>河川財団 河川基金 学校部門 [[kasen_kikin]]</td><td>学校が申し込む。単学年 20 万円まで。活動は 2027-04〜2028-03</td><td>2026-11-13（金）17:00</td></tr>
+<tr><td>かわさき市民公益活動助成金 スタートアップ</td><td>3 人以上・発足 3 年未満の団体。10 万円以内。申し込み前の相談が必要</td><td>例年 12 月上旬に募集開始 <span class="tbc">要確認</span></td></tr>
+<tr><td>中原区 市民提案型協働事業</td><td>区の負担は最大 30 万円。窓口は中原区役所 企画課</td><td>例年 1 月ごろに募集開始 <span class="tbc">要確認</span></td></tr>
+</tbody></table></div>
+<p>仲間を探す場として、中原区の住民・団体・区役所が集まる「なかはら SDC」の定例会 YORIAI（申し込み不要・オンライン可）もあります。[[nakahara_sdc]] 中原区は 2014〜16 年の区民会議で「ごみ問題」を取り上げ、ポイ捨て禁止の看板を試したこともあります。[[nakahara_kumin]]</p>
+
+<h2>まだ分かっていないこと</h2>
+<ul>
+<li>中原区の区間で、どこに・いつ・何のゴミが多いか（区間ごとの記録がまだない）</li>
+<li>市の通報フォームで、散らばったゴミを受け付けているか</li>
+<li>単発のボランティア清掃で出たゴミの回収方法と、トングなどの道具の貸し出し</li>
+<li>用水沿いにポスターを貼るときの許可の条件</li>
+<li>2027 年の一斉清掃の日程と、市の「（仮称）二ヶ領用水基本方針会議」の開かれ方</li>
+<li>議会で二ヶ領用水のゴミが話し合われたか</li>
+</ul>
 """.replace("{asof}", ASOF)))
 
 # ---------------- 桜並木を守る ----------------
@@ -716,6 +881,8 @@ pages.append(dict(path="action/index.html", title="みんなでできること",
 <li>神奈川県の地域防除戦略と、川崎市の区分</li>
 <li>川崎市に、私有の木の防除への補助があるか</li>
 </ul>
+<h2>用水の清掃に参加する</h2>
+<p>一斉清掃・河川愛護ボランティア制度・ゴミの記録のしかたは、「<a href="@/water/litter.html#join">用水のゴミ問題</a>」にまとめています。</p>
 <h2>これからやること</h2>
 <ul>
 <li>見回りの記録のしかた（記録の項目・写真の撮り方）をまとめる</li>
